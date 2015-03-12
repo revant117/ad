@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Colorful Flat by tB3</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -15,19 +15,40 @@
 <body>
 	<div id="headerSection">
 	<div class="container">
-	<a href="/file" target="_blank">file 1</a>
-	<div class="span3 logo"><a href="#"><img src="{{ url_for('static', filename='img/logo1.png') }}" alt="" /></a></div>
-		
+
+	<div class="row">
+	 <div class="row fluid">
+
+	 <div class="span12">
+	 <div class="span12 logo cntr"><a href="#"><img src="{{ url_for('static', filename='img/logo1.png') }}" alt="" /></a></div>
+
+	 </div>
+	 </div>
+	</div>
+
+     <div class="row">
+	 <div class="row fluid">
+
+	 <div class="span12">
+	 <div class="span12 logo cntr"><a href="#"><img src="{{ url_for('static', filename='img/logo3.png') }}" alt="" /></a></div>
+
+	 </div>
+	 </div>
+	</div>
+
+	
+	
 		<div class="navbar">
 		
 			
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li><a href="#ourServices">What we do?</a></li>
-					<li><a href="#portfolioSection">Portfolio</a></li>
-					<li><a href="#meetourteamSection">Team</a></li>
-					<li><a href="#recentpostSection">Blog</a></li>
-					<li><a href="#contactSection">Support</a></li>
+					<li><a href="#ourServices">What is ignite</a></li>
+					<li><a href="#portfolioSection">Scientific</a></li>
+					
+					<li><a href="#recentpostSection">Gallery</a></li>
+					<li><a href="#meetourteamSection">Contact</a></li>
+					<li><a href="#Sponsers">Sponsers</a></li>
 				</ul>
 			</div>
 			
@@ -50,7 +71,13 @@
 				</div>
 				
 				<div class="item">
-					<a class="cntr" href="#"><img src="{{ url_for('static', filename= 'img/1.png') }}" alt=""></a>
+					<a class="cntr" href="#"><img src="{{ url_for('static', filename= 'img/2.png') }}" alt=""></a>
+				</div>
+				<div class="item">
+					<a class="cntr" href="#"><img src="{{ url_for('static', filename= 'img/3.jpg') }}" alt=""></a>
+				</div>
+				<div class="item">
+					<a class="cntr" href="#"><img src="{{ url_for('static', filename= 'img/4.jpg') }}" alt=""></a>
 				</div>
 				
 				
@@ -69,14 +96,15 @@
 				<div class="row">
                 
                 <div class="row-fluid">
-      <div class="span4">
+      <div class="span12">
       
       <div class="info-img">
-        <img src="themes/img/img-1.png" ></div>
-        <h4>Flat Design</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p>
+        <img src="{{ url_for('static', filename='img/whatis.png')}}" ></div>
+        <h1>What is IGNITE</h1>
+        <p>After the success of the inaugural edition of IGNITE, the inter-collegiate annual scientific meet of Manipal College Of Dental Sciences, Manipal, we are organising IGNITE ’15 from 23rd-25th April,2015 on a bigger scale. The three day event will include paper presentations, e-poster presentations, table clinic, dental debate, quiz and keynote lectures by eminent speakers More than 25 colleges from Karnataka and neighbouring states are participating in this edition of IGNITE thus making the event a small hub for dental students throughout the state. The primary aim of IGNITE is to serve as an effective inter-collegiate platform for dental students and interns, which will eventually act as a medium to provide essential practice and confidence to aspiring dentists for bigger exposures nationally and internationally. Through this fest, we also intend to bring together students/interns to facilitate exchange of knowledge, ideas and sharing of literary talents.
+         </p>
       </div>
-      <div class="span4">
+      <!--<div class="span4">
         <div class="info-img"><img src="themes/img/img-2.png" ></div>
         <h4>Great Ideas</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p>
@@ -86,7 +114,7 @@
         <h4>Browser  Compatibility</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p>
       </div>
-    </div>
+    </div>  -->
 		
 		
 		
@@ -98,18 +126,74 @@
 </div>
 
 <!-- Our Portfolio======================================== -->
-<div id="portfolioSection">
-<div class="span6"><h1 class="cntr">Portfolio</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p></div>
+
+
+
+<!-- Blog Section -->
+
+
+<!-- Registrations======================================= -->
+<div id="portfolioSection"> 	
 <div class="container">	
-	<ul class="nav nav-pills">
-	<li class="active"><a href="#all" data-toggle="tab">ALL</a></li>
-    <li><a href="#web" data-toggle="tab">WEB</a></li>
-    <li><a href="#mobile" data-toggle="tab">MOBILE</a></li>
-    <li><a href="#photo" data-toggle="tab">PHOTOGRAPHY</a></li>
-    
-	</ul>
+
+<div class="row">
+                
+                <div class="row-fluid">
+      <div class="span12">
+      
+      
+        <h1>Scientific</h1>
+
+        </div>
+        </div>
+        
+
+
+				<div class="row">
+                
+                <div class="row-fluid">
+      <div class="span4">
+      
+     
+       
+        <h4><u>Schedule</u></h4>
+        <p>download the shedule here </p>
+        <a  id="abc"href="/shedule"> Shedule  </a>
+
+         
+      </div>
+      <div class="span4">
+        
+        <h4><u>Guidelines</u></h4>
+         <p>Download the PDF for the Guidelines</p>
+         <a  id="abc" href="/guide"> Guiedlines </a>
+      </div>
+      <div class="span4">
+       
+        <h4><u>Registration Form</u></h4>
+         <p>Download the Registration form here.
+         Registration fees for delegate is Rs 400/-</p>
+         <a  id="abc" href="/register">Registration form</a>
+      </div>
+    </div>  
+	
+		
+		
+		
+		
+		
+</div>
+</div>
+</div>
+<!-- Gallery======================================== -->
+<div id="recentpostSection">
+<div class="span6"><h1 class="cntr">Gallery</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p>
+</div>
+
+
 <div class="clr"></div>
+
 <div class="tabbable tabs">
 <div class="tab-content label-primary">
 
@@ -161,21 +245,43 @@
 	</ul>
     
 	</div>
+
+	</div>
+	</div>
+	</div>
 	
-	<div class="tab-pane" id="web">
+
+
+<!-- our team 2 -->
+
+<!--our sponsers -->
+<div id="Sponsers">
+<div class="row span12 cntr"><h1 class="cntr">Our Sponsers</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p>
+</div>
+
+
+<div class="clr"></div>
+
+<div class="row cntr floated">
+
+<div class="tabbable tabs">
+<div class="tab-content label-primary">
+
+	<div class="tab-pane active" id="all">
 	<ul class="thumbnails">
 	
 		<li class="span4">
 			<div class="thumbnail">
 				<div class="blockDtl">
-				<a href="#myModal1" role="button" data-toggle="modal"><img src="themes/img/img-5.png" alt=""></a>
+				<a href="#myModal1" role="button"  data-toggle="modal"><img src="themes/img/img-4.png" alt=""></a>
 				</div>
 			</div>
 		</li>
 		<li class="span4">
 			<div class="thumbnail">
 				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-4.png" alt=""></a>
+				<a href="#"><img src="themes/img/img-5.png" alt=""></a>
 				</div>
 			</div>
 		</li>
@@ -210,156 +316,13 @@
 	</ul>
     
 	</div>
-	
-	<div class="tab-pane" id="mobile">
-	<ul class="thumbnails">
-	
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#myModal1" role="button" data-toggle="modal"><img src="themes/img/img-5.png" alt=""></a>
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-6.png" alt=""></a>
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-4.png" alt=""></a>
-				</div>
-			</div>
-		</li><li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-7.png" alt=""></a>
-				</div>
-			</div>
-		</li><li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-8.png" alt=""></a>
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-9.png" alt=""></a>
-				</div>
-			</div>
-		</li>		
-		
-			
-	</ul>
-    
 	</div>
-	
-	<div class="tab-pane" id="photo">
-	<ul class="thumbnails">
-	
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#myModal1" role="button" data-toggle="modal"><img src="themes/img/img-7.png" alt=""></a>
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-4.png" alt=""></a>
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-6.png" alt=""></a>
-				</div>
-			</div>
-		</li>
-		
-		
-			
-	</ul>
-    
+
 	</div>
-	
-	
-	
-	
-    <a href="#" class="btn btn-large btn-primary disabled">SHOW MORE</a>
-
-	
-	
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-<!-- Blog Section -->
-<div id="blogSection">
- 
- <div class="container">
-   
-   <div class="row span12">	
-		
-        
-        <div class="span8">
-        
-		<div class="inner">
-		<h1>Layered Neatly Photoshop Template</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. Integer lobortis purus a felis adipiscing, eget ornare justo semper. Etiam commodo tincidunt ante.</p>
-        
-        <a href="#" class="btn btn-large btn-primary">SHOW MORE</a>
-		</div>
-        
-        </div>
-        
-        <div class="span4">
-          <img src="themes/img/img-10.png" alt="" />
-        </div>
-        
-   </div>
-        
-        <hr class="soften clear"/>
-        
-    <div class="row span12">	
-		
-        <div class="span4">
-          <img src="themes/img/img-10.png" alt="" />
-        </div>
-        
-        <div class="span8">
-        
-		<div class="inner">
-		<h1>Layered Neatly Photoshop Template</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. Integer lobortis purus a felis adipiscing, eget ornare justo semper. Etiam commodo tincidunt ante.</p>
-        
-        <a href="#" class="btn btn-large btn-primary">SHOW MORE</a>
-		</div>
-        
-        </div>
-        
-       
-        
-   </div>    
-			
-   
 	</div>
-</div>
+	</div>
 
-<!-- Meet our team======================================== -->
+<!-- +++++++++++++++++++++++++++++++++++++  -->
 <div id="meetourteamSection">
 <div class="span6"><h1 class="cntr">MEET OUR TEAM</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p></div>
@@ -371,112 +334,35 @@
 	<div class="tab-pane active" id="all">
 	<ul class="thumbnails">
 	
-		<li class="span4">
+		<li class="span5">
 			<div class="thumbnail">
 				<div class="blockDtl">
-				<a href="#" ><img src="themes/img/img-11.png" alt=""></a>
-                <h4>JOHN SMITH</h4>
-                <h5>Creative Director</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
-                <a class="facebook" href="#"></a>
-                    <a class="twitter" href="#"></a>
-                    <a class="pin" href="#"></a>
+				
+                <h4>SHANAHAS MOHAMED</h4>
+                <h5>Joint Secretary</h5>
+                <p>PH: +91 9035081762 </p>
+                <p>shanumohd6@gmail.com</p>
+               
 				</div>
 			</div>
 		</li>
-		<li class="span4">
+		<li class="span5">
 			<div class="thumbnail">
 				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-11.png" alt=""></a>
-                <h4>JOHN SMITH</h4>
-                <h5>Creative Director</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
-                <a class="facebook" href="#"></a>
-                    <a class="twitter" href="#"></a>
-                    <a class="pin" href="#"></a>
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-11.png" alt=""></a>
-                <h4>JOHN SMITH</h4>
-                <h5>Creative Director</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
-                <a class="facebook" href="#"></a>
-                    <a class="twitter" href="#"></a>
-                    <a class="pin" href="#"></a>
-				</div>
-			</div>
-		</li>
-		
-			
-	</ul>
-   
-    
-	</div>
-	
-	
-	
-	
-
-	
-	
-</div>
-</div>
-</div>
-</div>
-
-<!-- recent post======================================== -->
-<div id="recentpostSection">
-<div class="span6"><h1 class="cntr">RECENT POST</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p></div>
-<div class="container">	
-	
-<div class="tabbable tabs">
-<div class="tab-content label-primary">
-
-	<div class="tab-pane active" id="all">
-	<ul class="thumbnails">
-	
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#" ><img src="themes/img/img-12.png" alt=""></a>
-                <h4>Really Interesting Post</h4>
-                <h6>October 27</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
-                
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-12.png" alt=""></a>
-                <h4>Really Interesting Post</h4>
-                <h6>October 27</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
-                
-				</div>
-			</div>
-		</li>
-		<li class="span4">
-			<div class="thumbnail">
-				<div class="blockDtl">
-				<a href="#"><img src="themes/img/img-12.png" alt=""></a>
-                <h4>Really Interesting Post</h4>
-                <h6>October 27</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+				
+                <h4>MERAJ ALAM</h4>
+                <h5>President</h5>
+                <p>PH: +91 9986821716</p>
+                <p>merajalam4191@gmail.com</p>
                
 				</div>
 			</div>
 		</li>
 		
+		
 			
 	</ul>
-   <a href="#" class="btn btn-large btn-primary disabled">SHOW MORE</a>
+   
     
 	</div>
 	
@@ -493,55 +379,16 @@
 
 
 <!-- Contact Section -->
-<div id="contactSection">
-<div class="span6"><h1 class="cntr">Contact Us</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p></div>
-	<div class="container">	
-		<div class="row">	
-		<div class="span8">
-			
-			<form class="form-horizontal">
-				<fieldset>
-				  <div class="control-group">
-					
-					<div class="controls">
-					  <input type="text" class="input-xlarge" id="input01" >
-					 
-					</div>
-				  </div>
-				   <div class="control-group">
-					
-					<div class="controls">
-					  <input type="text" class="input-xlarge" id="input11">
-					 
-					</div>
-				  </div>
-				   <div class="control-group">
-					
-					<div class="controls">
-					  <textarea class="input-xlarge" id="textarea" rows="3" style="height:210px"></textarea>
-					</div>
-				  </div>
-				  
-				 
-					<button type="submit" class="btn btn-large btn-primary disabled">Send Message</button>
-					
-				</fieldset>
-			  </form>
-		</div> 
-		
-		
-		</div> 
-		</div> 
+
         
      <div class="footerSection container">
 	
        
                 <div class=" span4 socialicon">
-                    <a class="facebook" href="http://www.facebook.com/xtendify"></a>
-                    <a class="twitter" href="http://www.twitter.com/xtendify"></a>
-                    <a class="html5" href="#"></a>
-                    <a class="icon2" href="#"></a>
+                    <a class="facebook" target="_blank" href="https://www.facebook.com/pages/MCODS-Ignite-2015/1388715864768554"></a>
+                    
+                    
+                    
                 </div>
                 
         

@@ -19,6 +19,55 @@ h1.brand {
     width: 222px;
 }
 
+#headerSection {
+
+background: rgb(231, 222, 56);
+background-image: url("i5.png") !important;
+}
+
+
+#abc{
+    text-decoration: none;
+color: #FE5214;
+color: black;
+font-weight: bolder;
+font-size: large;
+}
+#Sponsers{
+
+padding: 30px;
+padding-left: 170px;
+
+}
+
+#carouselSection {
+
+background: #FF501E;
+}
+
+#ourServices {
+
+background: #FFBD28 !important;
+}
+
+#portfolioSection {
+
+background: #E88426 !important;
+}
+
+#recentpostSection {
+
+background: #FF501E !important;
+padding-left: 130px !important;
+}
+
+#meetourteamSection {
+
+background: #FF501E !important;
+}
+
+
+
 .span3.logo {
     padding: 34px 0 0;
 }

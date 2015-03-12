@@ -13,13 +13,33 @@ def home():
   return render_template('index.html')
 
 
-@app.route('/file')
+
+
+
+@app.route('/shedule')
 def file():
+	download_filename = "IGNITE 2015 Guidelines final.pdf"
+	return(send_file(filename_or_fp = download_filename,mimetype="text",as_attachment=True))
+
+@app.route('/guide')
+def file2():
+	download_filename = "IGNITE 2015 Registration form.pdf"
+	return(send_file(filename_or_fp = download_filename,mimetype="text",as_attachment=True))
+
+@app.route('/register')
+def file3():
+	download_filename = "IGNITE 2015 REGISTRATION FORM.pdf"
+	return(send_file(filename_or_fp = download_filename,mimetype="text",as_attachment=True))
   
 
-  download_filename = "test.txt"
+  
 
-  return(send_file(filename_or_fp = download_filename,mimetype="text",as_attachment=True))
+  
+
+
+
+
+
 
 
 
